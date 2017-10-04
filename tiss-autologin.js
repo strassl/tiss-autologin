@@ -27,11 +27,11 @@ var PASSWORD = null;
 })();
 
 function attemptTuwelLogin() {
-    var form = document.querySelector('form#zid_login');
+    var button = document.querySelector('#login_navbar_buttons a[title="TU Account Login"]');
 
-    if (form !== null) {
+    if (button !== null) {
         console.log('Found login button, logging in');
-        form.submit();
+        button.click();
     } else {
         console.log('No login button found, assuming already logged in');
     }
