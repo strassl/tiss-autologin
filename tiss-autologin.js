@@ -27,7 +27,7 @@ var PASSWORD = null;
 })();
 
 function attemptTuwelLogin() {
-    var button = document.querySelector('#login_navbar_buttons a[title="TU Account Login"]');
+    var button = document.querySelector('#login_navbar_buttons a[title="TU Account Login" i]');
 
     if (button !== null) {
         console.log('Found login button, logging in');
